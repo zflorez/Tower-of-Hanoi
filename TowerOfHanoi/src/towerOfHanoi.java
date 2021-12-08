@@ -4,10 +4,10 @@ import java.util.Scanner;
  * Author:      Zachary Florez
  * Class:       towerOfHanoi
  * Description: This class implements of a simulation of the game Tower 
- * 				of Hanoi. The View of the program asks a user for the
- * 				number of disks and then calls the function execute() 
- * 				to keep searching for the solution until all the disks
- * 				are placed correctly on another rod. 
+ * 		of Hanoi. The View of the program asks a user for the
+ * 		number of disks and then calls the function execute() 
+ * 		to keep searching for the solution until all the disks
+ * 		are placed correctly on another rod. 
  * 
  */
 
@@ -15,6 +15,7 @@ public class towerOfHanoi {
 
 	public static void main(String[] args) {
 		
+		// New scanner
 		Scanner in = new Scanner(System.in);
 		
 		System.out.println("Welcome to Tower of Hanoi!");
